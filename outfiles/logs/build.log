@@ -1,0 +1,17 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  Microsoft.WSMan.Runtime -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.WSMan.Runtime\bin\Debug\net11.0\Microsoft.WSMan.Runtime.dll
+  PSVersionInfoGenerator -> D:\Development\DesktopApps\Console\PowerShell\src\System.Management.Automation\SourceGenerators\PSVersionInfoGenerator\bin\Debug\netstandard2.0\SMA.Generator.dll
+  Microsoft.PowerShell.CoreCLR.Eventing -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.PowerShell.CoreCLR.Eventing\bin\Debug\net11.0\Microsoft.PowerShell.CoreCLR.Eventing.dll
+  System.Management.Automation -> D:\Development\DesktopApps\Console\PowerShell\src\System.Management.Automation\bin\Debug\net11.0\System.Management.Automation.dll
+  Microsoft.PowerShell.Security -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.PowerShell.Security\bin\Debug\net11.0\Microsoft.PowerShell.Security.dll
+  Microsoft.PowerShell.Commands.Diagnostics -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.PowerShell.Commands.Diagnostics\bin\Debug\net11.0\Microsoft.PowerShell.Commands.Diagnostics.dll
+  Microsoft.PowerShell.ConsoleHost -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.PowerShell.ConsoleHost\bin\Debug\net11.0\Microsoft.PowerShell.ConsoleHost.dll
+  Microsoft.WSMan.Management -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.WSMan.Management\bin\Debug\net11.0\Microsoft.WSMan.Management.dll
+  Microsoft.Management.Infrastructure.CimCmdlets -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.Management.Infrastructure.CimCmdlets\bin\Debug\net11.0\Microsoft.Management.Infrastructure.CimCmdlets.dll
+  Microsoft.PowerShell.Commands.Utility -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.PowerShell.Commands.Utility\bin\Debug\net11.0\Microsoft.PowerShell.Commands.Utility.dll
+  Microsoft.PowerShell.Commands.Management -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.PowerShell.Commands.Management\bin\Debug\net11.0\Microsoft.PowerShell.Commands.Management.dll
+  Microsoft.PowerShell.GraphicalHost -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.Management.UI.Internal\bin\Debug\net11.0\Microsoft.PowerShell.GraphicalHost.dll
+  Microsoft.PowerShell.SDK -> D:\Development\DesktopApps\Console\PowerShell\src\Microsoft.PowerShell.SDK\bin\Debug\net11.0\Microsoft.PowerShell.SDK.dll
+  powershell-win-core -> D:\Development\DesktopApps\Console\PowerShell\src\powershell-win-core\bin\Debug\net11.0\win7-x64\pwsh.dll
+  powershell-win-core -> D:\Development\DesktopApps\Console\PowerShell\outfiles\build\

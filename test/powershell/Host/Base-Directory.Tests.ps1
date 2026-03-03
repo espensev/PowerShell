@@ -63,6 +63,38 @@ Describe "Configuration file locations" -tags "CI","Slow" {
         # The ModuleAnalysisCache cannot be forced to exist, thus we cannot test it
     }
 
+    Context "Profile location override with POWERSHELL_PROFILE_DIRECTORY" {
+
+        BeforeEach {
+            $originalProfileRoot = $env:POWERSHELL_PROFILE_DIRECTORY
+        }
+
+        AfterEach {
+            if ($null -eq $originalProfileRoot) {
+                Remove-Item Env:\POWERSHELL_PROFILE_DIRECTORY -ErrorAction SilentlyContinue
+            }
+            else {
+                $env:POWERSHELL_PROFILE_DIRECTORY = $originalProfileRoot
+            }
+        }
+
+        It "CurrentUserCurrentHost should respect POWERSHELL_PROFILE_DIRECTORY" {
+            $customProfileRoot = [IO.Path]::Combine($TestDrive, "portable-profile")
+            $env:POWERSHELL_PROFILE_DIRECTORY = $customProfileRoot
+            $expected = [io.path]::Combine($customProfileRoot, $profileName)
+
+            & $powershell -noprofile -c `$PROFILE.CurrentUserCurrentHost | Should -Be $expected
+        }
+
+        It "CurrentUserAllHosts should respect POWERSHELL_PROFILE_DIRECTORY" {
+            $customProfileRoot = [IO.Path]::Combine($TestDrive, "portable-profile")
+            $env:POWERSHELL_PROFILE_DIRECTORY = $customProfileRoot
+            $expected = [io.path]::Combine($customProfileRoot, "profile.ps1")
+
+            & $powershell -noprofile -c `$PROFILE.CurrentUserAllHosts | Should -Be $expected
+        }
+    }
+
     Context "XDG Base Directory Specification is supported on Linux" {
         BeforeAll {
             # Using It @ItArgs, we automatically skip on Windows for all these tests

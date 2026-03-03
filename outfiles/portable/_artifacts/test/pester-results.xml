@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="20" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2026-03-02" time="15:38:09">
+  <environment user-domain="SND-MAINDESK" cwd="D:\Development\DesktopApps\Console\PowerShell" clr-version="Unknown" os-version="10.0.26300" platform="Microsoft Windows 11 Pro Insider Preview|C:\WINDOWS|\Device\Harddisk0\Partition3" machine-name="SND-MAINDESK" user="MainDesk" nunit-version="2.5.8.0" />
+  <culture-info current-culture="en-GB" current-uiculture="en-GB" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.7205" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1" executed="True" result="Success" success="True" time="0.7205" asserts="0" description="D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Tests for OrderedHashtable" executed="True" result="Success" success="True" time="0.6522" asserts="0" description="Tests for OrderedHashtable">
+            <results>
+              <test-case description="Can create an empty OrderedHashtable" name="Tests for OrderedHashtable.Can create an empty OrderedHashtable" time="0.0664" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can create an empty OrderedHashtable with a capacity" name="Tests for OrderedHashtable.Can create an empty OrderedHashtable with a capacity" time="0.0043" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can create an OrderedHashtable with an initial dictionary" name="Tests for OrderedHashtable.Can create an OrderedHashtable with an initial dictionary" time="0.0123" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the Add() method" name="Tests for OrderedHashtable.Can use the Add() method" time="0.0048" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the Clear() method" name="Tests for OrderedHashtable.Can use the Clear() method" time="0.0109" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the Clone() method" name="Tests for OrderedHashtable.Can use the Clone() method" time="0.0039" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the Contains() method" name="Tests for OrderedHashtable.Can use the Contains() method" time="0.0068" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the ContainsKey() method" name="Tests for OrderedHashtable.Can use the ContainsKey() method" time="0.0032" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the ContainsValue() method" name="Tests for OrderedHashtable.Can use the ContainsValue() method" time="0.0036" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the CopyTo() method" name="Tests for OrderedHashtable.Can use the CopyTo() method" time="0.0141" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the Equals() method" name="Tests for OrderedHashtable.Can use the Equals() method" time="0.0405" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the GetEnumerator() method" name="Tests for OrderedHashtable.Can use the GetEnumerator() method" time="0.0127" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use the GetHashCode() method" name="Tests for OrderedHashtable.Can use the GetHashCode() method" time="0.0069" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use Remove() method" name="Tests for OrderedHashtable.Can use Remove() method" time="0.0111" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use Item property" name="Tests for OrderedHashtable.Can use Item property" time="0.0024" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use IsFixedSize property" name="Tests for OrderedHashtable.Can use IsFixedSize property" time="0.0024" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use IsReadOnly property" name="Tests for OrderedHashtable.Can use IsReadOnly property" time="0.0025" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use IsSynchronized property" name="Tests for OrderedHashtable.Can use IsSynchronized property" time="0.0025" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use Keys property" name="Tests for OrderedHashtable.Can use Keys property" time="0.0053" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Can use Values property" name="Tests for OrderedHashtable.Can use Values property" time="0.0029" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

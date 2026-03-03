@@ -143,7 +143,7 @@ namespace System.Management.Automation
 
             if (forCurrentUser)
             {
-                basePath = Platform.ConfigDirectory;
+                basePath = GetCurrentUserProfileDirectory();
             }
             else
             {
@@ -165,6 +165,41 @@ namespace System.Management.Automation
             string fullPath = basePath = IO.Path.Combine(basePath, profileName);
 
             return fullPath;
+        }
+
+        private static string GetCurrentUserProfileDirectory()
+        {
+            const string profileDirectoryEnvVar = "POWERSHELL_PROFILE_DIRECTORY";
+            string configuredPath = Environment.GetEnvironmentVariable(profileDirectoryEnvVar);
+            if (string.IsNullOrWhiteSpace(configuredPath))
+            {
+                return Platform.ConfigDirectory;
+            }
+
+            try
+            {
+                configuredPath = Environment.ExpandEnvironmentVariables(configuredPath).Trim().Trim('"');
+                configuredPath = IO.Path.GetFullPath(configuredPath);
+                IO.Directory.CreateDirectory(configuredPath);
+                return configuredPath;
+            }
+            catch (ArgumentException)
+            {
+            }
+            catch (IO.IOException)
+            {
+            }
+            catch (NotSupportedException)
+            {
+            }
+            catch (UnauthorizedAccessException)
+            {
+            }
+            catch (System.Security.SecurityException)
+            {
+            }
+
+            return Platform.ConfigDirectory;
         }
 
         /// <summary>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="20" errors="0" failures="20" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2026-03-02" time="12:46:30">
+  <environment clr-version="" user="MainDesk" cwd="D:\Development\DesktopApps\Console\PowerShell" user-domain="SND-MAINDESK" platform="Microsoft Windows 11 Pro Insider Preview|C:\WINDOWS|\Device\Harddisk0\Partition3" machine-name="SND-MAINDESK" nunit-version="2.5.8.0" os-version="10.0.26300" />
+  <culture-info current-culture="en-GB" current-uiculture="en-GB" />
+  <test-suite type="Powershell" name="Pester" executed="True" result="Failure" success="False" time="2.6762" asserts="0">
+    <results>
+      <test-suite type="TestFixture" name="Tests for OrderedHashtable" executed="True" result="Failure" success="False" time="2.6762" asserts="0" description="Tests for OrderedHashtable">
+        <results>
+          <test-case description="Can create an empty OrderedHashtable" name="Tests for OrderedHashtable.Can create an empty OrderedHashtable" time="1.9564" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can create an empty OrderedHashtable with a capacity" name="Tests for OrderedHashtable.Can create an empty OrderedHashtable with a capacity" time="0.1073" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can create an OrderedHashtable with an initial dictionary" name="Tests for OrderedHashtable.Can create an OrderedHashtable with an initial dictionary" time="0.0379" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the Add() method" name="Tests for OrderedHashtable.Can use the Add() method" time="0.0331" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the Clear() method" name="Tests for OrderedHashtable.Can use the Clear() method" time="0.0295" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the Clone() method" name="Tests for OrderedHashtable.Can use the Clone() method" time="0.0316" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the Contains() method" name="Tests for OrderedHashtable.Can use the Contains() method" time="0.0426" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeTrue' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the ContainsKey() method" name="Tests for OrderedHashtable.Can use the ContainsKey() method" time="0.0338" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeTrue' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the ContainsValue() method" name="Tests for OrderedHashtable.Can use the ContainsValue() method" time="0.0346" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeTrue' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the CopyTo() method" name="Tests for OrderedHashtable.Can use the CopyTo() method" time="0.0346" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the Equals() method" name="Tests for OrderedHashtable.Can use the Equals() method" time="0.0355" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeFalse' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the GetEnumerator() method" name="Tests for OrderedHashtable.Can use the GetEnumerator() method" time="0.0375" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeExactly' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use the GetHashCode() method" name="Tests for OrderedHashtable.Can use the GetHashCode() method" time="0.0342" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeGreaterThan' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use Remove() method" name="Tests for OrderedHashtable.Can use Remove() method" time="0.032" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use Item property" name="Tests for OrderedHashtable.Can use Item property" time="0.0325" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use IsFixedSize property" name="Tests for OrderedHashtable.Can use IsFixedSize property" time="0.0322" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeFalse' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use IsReadOnly property" name="Tests for OrderedHashtable.Can use IsReadOnly property" time="0.0315" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeFalse' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use IsSynchronized property" name="Tests for OrderedHashtable.Can use IsSynchronized property" time="0.0331" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-BeFalse' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use Keys property" name="Tests for OrderedHashtable.Can use Keys property" time="0.0343" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+          <test-case description="Can use Values property" name="Tests for OrderedHashtable.Can use Values property" time="0.0321" asserts="0" success="False" result="Failure" executed="True">
+            <failure>
+              <message>'-Be' is not a valid Should operator.</message>
+              <stack-trace>at line: 42 in C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1</stack-trace>
+            </failure>
+          </test-case>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,28 @@
+Pester v4.10.1
+Executing all tests in 'D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1' with Tags CI', 'Feature
+
+Executing script D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1
+
+  Describing Tests for OrderedHashtable
+    [+] Can create an empty OrderedHashtable 66ms
+    [+] Can create an empty OrderedHashtable with a capacity 4ms
+    [+] Can create an OrderedHashtable with an initial dictionary 12ms
+    [+] Can use the Add() method 4ms
+    [+] Can use the Clear() method 10ms
+    [+] Can use the Clone() method 3ms
+    [+] Can use the Contains() method 6ms
+    [+] Can use the ContainsKey() method 3ms
+    [+] Can use the ContainsValue() method 3ms
+    [+] Can use the CopyTo() method 14ms
+    [+] Can use the Equals() method 40ms
+    [+] Can use the GetEnumerator() method 12ms
+    [+] Can use the GetHashCode() method 6ms
+    [+] Can use Remove() method 11ms
+    [+] Can use Item property 2ms
+    [+] Can use IsFixedSize property 2ms
+    [+] Can use IsReadOnly property 2ms
+    [+] Can use IsSynchronized property 2ms
+    [+] Can use Keys property 5ms
+    [+] Can use Values property 2ms
+Tests completed in 720ms
+Tests Passed: 20, Failed: 0, Skipped: 0, Pending: 0, Inconclusive: 0 

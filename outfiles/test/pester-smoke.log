@@ -1,0 +1,94 @@
+Save-Module: Cannot find the path
+'D:\Development\DesktopApps\Console\PowerShell\src
+\powershell-win-core\bin\Debug\net11.0\win7-x64\pu
+blish\Modules' because it does not exist.
+
+Import-Module: The specified module 'D:\Development\DesktopApps\Console\PowerShell\outfiles\build\Modules\Pester' was not loaded because no valid module file was found in any module directory.
+
+
+
+
+
+Describing Tests for OrderedHashtable
+ [-] Can create an empty OrderedHashtable 1.96s
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 8
+ [-] Can create an empty OrderedHashtable with a capacity 107ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 14
+ [-] Can create an OrderedHashtable with an initial dictionary 37ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 21
+ [-] Can use the Add() method 33ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 30
+ [-] Can use the Clear() method 29ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 38
+ [-] Can use the Clone() method 31ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 47
+ [-] Can use the Contains() method 42ms
+   RuntimeException: '-BeTrue' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 55
+ [-] Can use the ContainsKey() method 33ms
+   RuntimeException: '-BeTrue' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 63
+ [-] Can use the ContainsValue() method 34ms
+   RuntimeException: '-BeTrue' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 71
+ [-] Can use the CopyTo() method 34ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 83
+ [-] Can use the Equals() method 35ms
+   RuntimeException: '-BeFalse' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 96
+ [-] Can use the GetEnumerator() method 37ms
+   RuntimeException: '-BeExactly' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 103
+ [-] Can use the GetHashCode() method 34ms
+   RuntimeException: '-BeGreaterThan' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 109
+ [-] Can use Remove() method 31ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 120
+ [-] Can use Item property 32ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 127
+ [-] Can use IsFixedSize property 32ms
+   RuntimeException: '-BeFalse' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 134
+ [-] Can use IsReadOnly property 31ms
+   RuntimeException: '-BeFalse' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 140
+ [-] Can use IsSynchronized property 33ms
+   RuntimeException: '-BeFalse' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 146
+ [-] Can use Keys property 34ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 153
+ [-] Can use Values property 32ms
+   RuntimeException: '-Be' is not a valid Should operator.
+   at Get-TestResult, C:\Program Files\WindowsPowerShell\Modules\Pester\3.4.0\Functions\Assertions\Should.ps1: line 42
+   at <ScriptBlock>, D:\Development\DesktopApps\Console\PowerShell\test\powershell\engine\OrderedHashtable.Tests.ps1: line 160
+Tests completed in 2.68s
+Passed: 0 Failed: 20 Skipped: 0 Pending: 0 Inconclusive: 0
